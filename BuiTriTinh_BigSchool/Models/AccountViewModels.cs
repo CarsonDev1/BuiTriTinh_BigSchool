@@ -106,7 +106,6 @@ namespace BuiTriTinh_BigSchool.Models
 
         public string Code { get; set; }
     }
-
     public class ForgotPasswordViewModel
     {
         [Required]

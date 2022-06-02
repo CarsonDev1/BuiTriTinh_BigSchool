@@ -15,7 +15,7 @@ namespace BuiTriTinh_BigSchool.Controllers
             BigSchool context = new BigSchool();
             Course objCourse = new Course();
             objCourse.ListCategory = context.Categories.ToList();
-
+           
             return View(objCourse);
         }
     }

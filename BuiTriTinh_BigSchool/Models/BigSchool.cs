@@ -17,7 +17,9 @@ namespace BuiTriTinh_BigSchool.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<Category>()
+                .HasOptional(e => e.Course)
+                .WithRequired(e => e.Category)
         }
     }
 }
