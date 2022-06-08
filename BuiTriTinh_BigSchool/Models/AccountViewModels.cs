@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BuiTriTinh_BigSchool.Models
@@ -10,7 +9,7 @@ namespace BuiTriTinh_BigSchool.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
-    
+
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
@@ -106,6 +105,7 @@ namespace BuiTriTinh_BigSchool.Models
 
         public string Code { get; set; }
     }
+
     public class ForgotPasswordViewModel
     {
         [Required]
