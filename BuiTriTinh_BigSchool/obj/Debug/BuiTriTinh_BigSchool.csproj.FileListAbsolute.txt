@@ -111,3 +111,4 @@ E:\learn Hutech\LapTrinhWeb\ThucHanhWeb\BuiTriTinh_BigSchool\BuiTriTinh_BigSchoo
 E:\learn Hutech\LapTrinhWeb\ThucHanhWeb\BuiTriTinh_BigSchool\BuiTriTinh_BigSchool\bin\System.Net.Http.Formatting.xml
 E:\learn Hutech\LapTrinhWeb\ThucHanhWeb\BuiTriTinh_BigSchool\BuiTriTinh_BigSchool\bin\System.Web.Http.xml
 E:\learn Hutech\LapTrinhWeb\ThucHanhWeb\BuiTriTinh_BigSchool\BuiTriTinh_BigSchool\bin\System.Web.Http.WebHost.xml
+E:\learn Hutech\LapTrinhWeb\ThucHanhWeb\BuiTriTinh_BigSchool\BuiTriTinh_BigSchool\obj\Debug\BuiTriTinh_BigSchool.csproj.AssemblyReference.cache
