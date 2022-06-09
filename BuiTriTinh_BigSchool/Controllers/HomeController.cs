@@ -1,4 +1,4 @@
-﻿using BuiTriTinh_BigSchool;
+﻿
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using System;
@@ -14,6 +14,7 @@ namespace BuiTriTinh_BigSchool.Controllers
     {
         public ActionResult Index()
         {
+           
             BigSchoolContext context = new BigSchoolContext();
             var upcommingCourse = context.Courses.Where(p => p.Datetime >
             DateTime.Now).OrderBy(p => p.Datetime).ToList();
@@ -23,9 +24,7 @@ namespace BuiTriTinh_BigSchool.Controllers
             foreach (Course i in upcommingCourse)
             {
                 //tìm Name của user từ lectureid
-                ApplicationUser user =
-                System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>(
-                ).FindById(i.LecturerId);
+                ApplicationUser user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(i.LecturerId);
                 i.Name = user.Name;
                 //lấy ds tham gia khóa học
                 if (userID != null)

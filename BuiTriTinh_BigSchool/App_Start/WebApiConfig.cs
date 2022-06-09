@@ -16,6 +16,7 @@ namespace BuiTriTinh_BigSchool
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
         }
     }
 }
